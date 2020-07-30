@@ -12,10 +12,10 @@ public class TicTacToe {
 	static Set<Integer> p1List = new HashSet<Integer>(9);					//Record of Player 1 (user) moves
 	static Set<Integer> p2List = new HashSet<Integer>(9);					//Record of Computer (cpu) or Player 2 (user) moves
 	static char [][] gameBoard = {{' ', '|', ' ', '|', ' '},				//Layout of the game
-			   					  {'-', '+', '-', '+', '-'},
-			   					  {' ', '|', ' ', '|', ' '},
-			   					  {'-', '+', '-', '+', '-'},
-			   					  {' ', '|', ' ', '|', ' '}};
+			   	      {'-', '+', '-', '+', '-'},
+			   	      {' ', '|', ' ', '|', ' '},
+			   	      {'-', '+', '-', '+', '-'},
+			   	      {' ', '|', ' ', '|', ' '}};
 
 	public static void main(String[] args) {
 		
